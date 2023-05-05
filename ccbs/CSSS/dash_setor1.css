@@ -1,0 +1,78 @@
+body{
+    background-color:white;
+    font-family: sans-serif;
+}
+
+.form-image{
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.form-image img{
+    width: 20rem;
+   
+}
+
+.singulation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.singulation > button{
+    background-color:white;
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 10px;
+    border-color: brown;
+    border-width: 1px;  
+    margin-block: 25%;
+}
+
+.singulation2 > button{
+    background-color:white;
+    width: 300PX;
+    height: 250px;
+    border-radius: 30px;
+    padding: 10px;
+    border-color: brown;
+    border-width: 1px;    
+}
+
+
+.btn:hover {
+    background-image: linear-gradient(to right, rgb(230, 230, 19), rgb(228, 142, 14));
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.divisao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: irem;
+}
+
+.info > h6{
+    margin-left: 75%;
+}
